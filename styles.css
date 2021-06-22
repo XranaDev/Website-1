@@ -96,7 +96,11 @@
   .left-item {
     float: left;
     padding: 1rem 3rem;
-    font-size: 0.5em !important;
+  }
+  .left-item > h1,
+  h3,
+  p {
+    font-size: 0.98rem;
   }
   .right-item {
     float: right;
