@@ -13,6 +13,9 @@
 .first {
   background-color: #353b48;
 }
+.second {
+  height: 40rem;
+}
 .why {
   padding: 5rem 0;
 }
@@ -95,7 +98,11 @@
   }
   .left-item {
     float: left;
-    padding: 1rem 3rem;
+    padding: 1rem 3rem -2rem;
+    width: 100%;
+  }
+  .second {
+    height: 30rem;
   }
   .left-item > h1,
   h3,
@@ -103,7 +110,6 @@
     font-size: 0.98rem;
   }
   .right-item {
-    float: right;
-    padding: 1rem 3rem;
+    visibility: hidden;
   }
 }
